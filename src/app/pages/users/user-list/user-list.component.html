@@ -1,0 +1,63 @@
+<shared-content-header
+title="Usuários"
+[breadcrumb]="[
+  {text: 'Usuários'}
+]"
+></shared-content-header>
+
+<section class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+
+          <div class="card-header">
+            <h3 class="card-title">Lista de Usuários</h3>
+          </div>
+
+          <div class="card-body">
+            <form>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button type="button" class="btn btn-success">
+                    Novo Usuário
+                  </button>
+                </div>
+                <input type="text" class="form-control" placeholder="Procurar" autofocus>
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-secondary">
+                    <i class="fas fa-search fa-fw"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 10px">ID</th>
+                  <th>Nome</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Foo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Baz</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Bar</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
