@@ -27,10 +27,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: npm install and ng build
+      - name: npm install and npm run build:prod
         run: |
           npm install
           npm fund
           npm audit fix
-          npm ci
-          npm run build:ci
+          npm run build:prod
