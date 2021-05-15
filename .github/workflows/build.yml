@@ -32,4 +32,5 @@ jobs:
           npm install
           npm fund
           npm audit fix
-          ng build
+          npm ci
+          npm run build:ci
