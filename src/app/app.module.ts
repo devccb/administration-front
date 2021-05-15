@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 // modules
 import { CoreModule } from './core/core.module';
+import { SharedModule } from './shared/shared.module';
 
 // components
 import { AppComponent } from './app.component';
@@ -18,7 +19,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule
+    CoreModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
