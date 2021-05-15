@@ -3,11 +3,20 @@ import { RouterModule, Routes } from '@angular/router';
 
 // components
 import { UserListComponent } from './user-list/user-list.component';
+import { UserFormComponent } from './user-form/user-form.component';
 
 const routes: Routes = [
   {
     path: '',
     component: UserListComponent
+  },
+  {
+    path: 'new',
+    component: UserFormComponent
+  },
+  {
+    path: 'edit/:id',
+    component: UserFormComponent
   }
 ];
 

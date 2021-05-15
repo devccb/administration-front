@@ -8,10 +8,12 @@ import { SharedModule } from '../../shared/shared.module';
 
 // components
 import { UserListComponent } from './user-list/user-list.component';
+import { UserFormComponent } from './user-form/user-form.component';
 
 @NgModule({
   declarations: [
-    UserListComponent
+    UserListComponent,
+    UserFormComponent
   ],
   imports: [
     CommonModule,
