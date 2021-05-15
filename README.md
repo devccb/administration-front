@@ -5,8 +5,15 @@ não é um concorrente do SIGA.
 
 ## Instalar
 
-git clone https://github.com/devccb/administration-front.git
+$ git clone https://github.com/devccb/administration-front.git
 
-cd administration-front
+$ cd administration-front
 
-npm install
+$ npm install
+
+## Pré Requisitos
+
+1. Git
+2. Node
+3. NPM
+4. Angular 12
