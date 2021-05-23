@@ -1,19 +1,16 @@
-<div class="hold-transition sidebar-mini">
-  <div class="wrapper">
-    <!-- Preloader -->
-    <div class="preloader">
-      <img src="assets/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-    </div>
+<div class="wrapper">
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="assets/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
-
-  <core-navbar></core-navbar>
-
-  <core-sidebar></core-sidebar>
-
-  <div class="content-wrapper">
-    <router-outlet></router-outlet>
-  </div>
-
-  <core-footer [regional]="regional" [administration]="administration"></core-footer>
-
 </div>
+
+<core-navbar></core-navbar>
+
+<core-sidebar></core-sidebar>
+
+<div class="content-wrapper">
+  <router-outlet></router-outlet>
+</div>
+
+<core-footer [regional]="regional" [administration]="administration"></core-footer>

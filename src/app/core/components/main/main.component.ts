@@ -12,6 +12,7 @@ export class MainComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.body.classList.add('sidebar-mini');
   }
 
 }

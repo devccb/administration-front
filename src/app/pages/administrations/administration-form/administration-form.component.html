@@ -1,0 +1,54 @@
+<shared-content-header
+title="Adicionar Administração"
+[breadcrumb]="[
+  {text: 'Administrações', link: '/administrations'},
+  {text: 'Adicionar Administração'}
+]"
+></shared-content-header>
+
+<section class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card card-secondary">
+
+          <div class="card-header">
+            <h3 class="card-title">Formulário para Adicionar Administração</h3>
+          </div>
+
+          <form>
+            <div class="card-body">
+
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" class="form-control" id="name" placeholder="Nome da Administração" autocomplete="off" autofocus>
+              </div>
+
+              <div class="form-group">
+                <label for="status">Status</label>
+                <select class="form-control" id="status">
+                  <option value="0">Inativo</option>
+                  <option value="1" selected>Ativo</option>
+                </select>
+              </div>
+
+            </div>
+
+            <div class="card-footer">
+
+              <button type="submit" class="btn btn-success">
+                Adicionar
+              </button>
+
+              <button type="button" class="btn btn-default float-right" [routerLink]="['/administrations']">
+                Cancelar
+              </button>
+
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

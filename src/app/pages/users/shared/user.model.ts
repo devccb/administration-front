@@ -6,7 +6,7 @@ export class User extends BaseModel{
     public email?: string,
     public login?: string,
     public password?: string,
-    public status?: number,
+    public status?: number
   ){
     super();
   }
